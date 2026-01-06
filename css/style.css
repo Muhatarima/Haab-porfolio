@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+
+}
+header {
+    background-color: #FFF8F3;
+    padding-top: 50px;
+    background: url('../images/developer.png'),url("../images/header_bg.png"),#FFF8F3;
+    background-position: top left,bottom right;
+    background-repeat: no-repeat;
+
+}
+nav{
+    width: 71%;
+    max-width: 1424px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h2{
+    font-size: 45px;
+    font-size: 900;
+
+}
+#r{
+    color: #FD6E0A;
+}
+nav .menu{
+    display: flex;
+    list-style: none;
+    gap: 51px;
+    align-items: center;
+
+}
+nav .menu a{
+   color: #474747;
+   font-size: 20px;
+}
+
+nav .menu button{
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    font-size: 20px;
+    color: aliceblue;
+    align-items: center;
+    padding: 15px;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    
+}
+.hero{
+
+    margin: 47px 38px 0 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.hero .text h1{
+    margin-bottom: 5px;
+}
+.hero .text p{
+    font-size: 18px;
+    color: #757575; 
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.hero .text{
+    max-width: 570px;
+    
+}
+.hero div button{
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    font-size: 20px;
+    color: aliceblue;
+    align-items: center;
+    padding: 15px;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    
+}
+.hero .img img{
+    max-width: 570px;
+    vertical-align: middle;
+
+}
+#about {
+padding-top: 130px;
+}
+#about .bout{
+    max-width: 1140px;
+    width: 71%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 157px;
+}
+.heading h2{
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.heading p{
+    font-size: 15px;
+    margin bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+
+    
+}
+.heading{
+    max-width: 1140px;
+    width: 71%;
+    text-align: center;
+}
+ #about .bout .info{
+    display: flex;
+    justify-content: space-around;
+     max-width: 1140px;
+    width: 71%
+    margin top:10px;
+ } 
+ .bout{
+    align-items: center;
+ }
